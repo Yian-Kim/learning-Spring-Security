@@ -1,13 +1,13 @@
-package io.security.basicsecurity;
+package io.security.coresecurity;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class BasicsecurityApplication {
+public class CoreSecurityApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(BasicsecurityApplication.class, args);
+		SpringApplication.run(CoreSecurityApplication.class, args);
 	}
 
 }
