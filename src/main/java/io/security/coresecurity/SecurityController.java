@@ -11,4 +11,9 @@ public class SecurityController {
         return "Hello World";
     }
 
+    @GetMapping("/loginPage")
+    public String loginPage() {
+        return "loginPage";
+    }
+
 }
